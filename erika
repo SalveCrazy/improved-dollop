@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tratamento de água na Palhoça</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: cosmic;
+      margin: 0;
+      padding: 0;
+      background-color: #000807;
+      color: #212121;
+    }
+
+    header {
+      background-color: #212121;
+      color: turquoise;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-align: left;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: ##212121;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .content {
+      background-color: white;
+      padding: 15px;
+      border-radius: 4px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      color: #060508;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Bem vindo ao site da 203!</h1>
+    <p>Aprendizado interativo para todos!</p>
+  </header>
+
+  <nav>
+    <a href="#home">Importância</a>
+    <a href="#materias">Ciclos</a>
+    <a href="#poluicao">Poluição da Água</a>
+    <a href="#desperdicio">Desperdício De Água</a>
+    <a href="#riopassavinte">Rio Passa Vinte</a>
+    <a href="#sosmataatlantica">SOS Mata Atlântica</a>
+  </nav>
+
+  <div class="container">
+    <section id="home" class="content">
+      <h2>Por que entender como um tratamento de água funciona?<h2>
+          </p>O tratamento de água é um processo importante para garantir a potabilidade da água que nós utilizamos. Além disso, o tratamento de água contribui para a preservação de rios, lagos da nossa cidade.</p>
+    </section>
+
+    <section id="materias" class="content">
+      <h2>Ciclos do Tratamento de Água<h2>
+          <p>O ciclo de tratamento de água é composto pelas seguintes etapas: </p>
+          <ul>
+            <li><a href="#">Captação</a></li>
+            <li><a href="#">Adução</a></li>
+            <li><a href="#">Coagulação</a></li>
+            <li><a href="#">Floculação</a></li>
+            <li><a href="#">Decantação</a></li>
+            <li><a href="#">Filtragem</a></li>
+            <li><a href="#">Desinfecção</a></li>
+            <li><a href="#">Reserva</a></li>
+          </ul>
+    </section>
+    <section id="poluicao" class="content">
+      <h2>Poluição da Água<h2>
+          </p>Os principais poluentes da água incluem bactérias, vírus, parasitas, fertilizantes, pesticidas, medicamentos, nitratos, fosfatos, plásticos, resíduos fecais e até substâncias radioativas. Estes elementos nem sempre tingem a água, de tal forma que a poluição hídrica é invisível muitas vezes.</p>
+          <form>
+    </section>
+    <section id="desperdicio" class="content">
+      <h2>Desperdício da Água<h2>
+          </p>O desperdício de água é um sério problema ambiental ocasionado pelo uso exagerado e pouco eficiente da água. Presente em maior ou menor escala em todos os países, o desperdício de água está associado também à ineficiência no transporte da água tratada, a problemas nas redes de distribuição e às atividades econômicas que mais fazem uso desse recurso natural, como a agricultura e a indústria.<p>
+    </section>
+    <section id="riopassavinte" class="content">
+      <h2>Rio Passa Vinte<h2>
+          </p>O Rio Passa Vinte, localizado em Palhoça, Santa Catarina, é monitorado pela SOS Mata Atlântica, apresenta qualidade regular da água, de acordo com o projeto "Observando os Rios". Este projeto monitora a qualidade da água de rios na Mata Atlântica e o Rio Passa Vinte é um dos corpos d'água monitorados, com um ponto específico no Rio Cubatão. A qualidade regular significa que a água apresenta condições que exigem atenção, pois pode estar no limite dos padrões definidos pela legislação para usos como recreação e abastecimento.</p>
+          <form>
+    </section>
+    <section id="sosmataatlantica" class="content">
+      <h2>SOS Mata Atlântica<h2>
+          <p2>Segue abaixo um site de uma organização que controla e pesquisa o que ocorre no rio Passa Vinte<p2>
+              <ul>
+                <li><a href="#">https://observandoosrios.sosma.org.br/grupo/1352/grupo-passa-vinte-</a></li>
+              </ul>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; Érika Fernanda. Todos os direitos reservados.</p>
+  </footer>
+</body>
+
+</html>
